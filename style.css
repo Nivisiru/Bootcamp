@@ -1,6 +1,6 @@
 /* Exercise 1----------------------------- */
 
-  body { 
+  /* body { 
   margin: 0;
   border: 5px solid black;
   height: 100vh;
@@ -39,7 +39,7 @@
   position: relative;
   top: 50px;
   left: 50px;
-}
+} */
 
 
 
@@ -169,9 +169,9 @@
   right: 0;
 } */
 
-/* Exercise 4-------------------------------- */
+/* Exercise 5-------------------------------- */
 
-/* body {
+body {
   margin: 0;
   border: 5px solid black;
   height: 100vh;
@@ -208,7 +208,7 @@
   height: 100px;
   background-color: blue;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 4px;
+  left: 4px;
 
-} */
+}
