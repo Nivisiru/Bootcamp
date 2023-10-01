@@ -9,3 +9,11 @@ describe('calculateTaxes test', function () {
         expect(calculateTaxes(80000)).toEqual(20000);
     });
 })
+
+function append(arr, val) {
+    arr.push(val);
+}
+
+function appendPure(arr, val) {
+    return [...arr, val]
+}
