@@ -1,0 +1,19 @@
+var:
+Variables declared with var have broader scope, which means they can be accessed outside of the block or function where they are defined.
+They can be redeclared within the same scope without causing an error.
+var variables are hoisted to the top of their scope and initialized with undefined.
+
+let:
+Variables declared with let are limited to the block or function where they are defined.
+They cannot be redeclared within the same scope, preventing accidental reassignments.
+let variables are hoisted but not initialized, leading to a ReferenceError if used before declaration.
+
+const:
+Like let, const variables are block-scoped.
+They cannot be reassigned after initial assignment.
+const variables must be assigned a value when declared and cannot be redeclared in the same scope.
+
+hoisting:
+It’s the way that we explain how the JS compiler works. Variables are lifting or “hoisted” to the top of the scope they are declared in. When using ***var***, you can access the variable name and it’s undefined value before it is used later on.
+
+Function declarations are also hoisted and can be invoked “before” they are defined in a codebase.
